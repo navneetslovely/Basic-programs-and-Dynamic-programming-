@@ -32,7 +32,9 @@ print("printing :::::  {}".format(cut_rod(pri,n)))
 ####### memorize
 
 
-de
+def Mem_cut_inner():
+
+    return q
 
 
 r=[]
