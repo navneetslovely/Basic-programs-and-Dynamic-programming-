@@ -26,3 +26,17 @@ def cut_rod(pri,n):
         #     q=q_c
     return q
 print("printing :::::  {}".format(cut_rod(pri,n)))
+
+
+
+####### memorize
+
+
+de
+
+
+r=[]
+def mem_cut_rod(pri,n):
+    for i in range(0,n):
+        r[i]= float("-inf")
+    return Mem_cut_inner(pri, n,r)
