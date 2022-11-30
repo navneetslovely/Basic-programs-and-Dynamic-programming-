@@ -1,22 +1,38 @@
+#important libraries
 import random
 import string 
-
-
-#www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg
+#*************************************************************#
+# take the url from the users
 # full_url= input("enter your URL")
+
+#*************************************************************#
+#predefine url
+#www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg
 full_url='www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg'
+#*************************************************************#
 url_dict={}
 def short_url(a):
     randnum= random.randint(6,10)
     # print(randnum)
     char=string.ascii_uppercase
     # print(char)
+
+    #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+    
+    #one line 'for loop' for compact code
+     
     # sh_url= ''.join(random.choice(char) for i in range(randnum))
+    
+    #*************************************************************#
+    
+    # logic with for loop 
+
     sh_url= ''
     for i in range(randnum):
         sh_url= ''.join([random.choice(char),sh_url])
     print(sh_url)
-
+    #*************************************************************#
+    
     if sh_url in url_dict:
         return short_url(a)
     else:
