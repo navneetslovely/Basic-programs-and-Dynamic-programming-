@@ -15,15 +15,15 @@ for i in range(num_in_list2):
 
 
 #basic logic with O(n*m) time complexity 
-# com_cont=0
-# for i in range(len(list1)):
-#     for j in range(len(list2)):
-#         if list1[i]==list2[j]:
-#             print("common elements detected")
-#             print(list1[i])
-#             com_cont+=1
-# print("number of comman elements: ", com_cont)        
-######## print("No common element found in list 1 and list 2")
+com_cont=0
+for i in range(len(list1)):
+    for j in range(len(list2)):
+        if list1[i]==list2[j]:
+            print("common elements detected")
+            print(list1[i])
+            com_cont+=1
+print("number of comman elements: ", com_cont)        
+####### print("No common element found in list 1 and list 2")
 
 #common elements in two lists in O(N) time and O(M) space IF n>m
 
