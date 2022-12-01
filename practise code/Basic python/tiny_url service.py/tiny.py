@@ -8,7 +8,7 @@ import string
 #*************************************************************#
 #predefine url
 #www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg
-full_url='www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg'
+full_url='www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg1'
 #*************************************************************#
 url_dict={}
 def short_url(a):
