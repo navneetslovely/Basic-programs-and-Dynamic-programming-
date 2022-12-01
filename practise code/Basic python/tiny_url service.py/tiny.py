@@ -8,7 +8,7 @@ import string
 #*************************************************************#
 #predefine url
 #www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg
-full_url='www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg'
+full_url='www.fgyhuhguer.urertu./ryugfiergfbcfvugigvgeycggrvgeg'
 #*************************************************************#
 url_dict={}
 def short_url(a):
@@ -32,7 +32,7 @@ def short_url(a):
         sh_url= ''.join([random.choice(char),sh_url])
     print(sh_url)
     #*************************************************************#
-    
+
     if sh_url in url_dict:
         return short_url(a)
     else:
