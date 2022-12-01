@@ -29,17 +29,17 @@ class ShortURL:
         return short_link
 
     def getLongUrl(self,shortURL):
-        long_link=shortURL[16:]
-        print(self.url_dict)
+        long_link=shortURL[15:]
+        print(long_link)
         if long_link in self.url_dict:
             return self.url_dict[long_link]
-        # else:
-        #     return  None
+        else:
+            return  None
 
 link=ShortURL()
 
 s=link.getShortUrl('www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg1')
-print(s)
-print(link.getLongUrl(s))
+print("Short URL:::  {}".format(s))
+print("Long Url:::  {}".format(link.getLongUrl(s)))
 
 # print(link.url_dict)
