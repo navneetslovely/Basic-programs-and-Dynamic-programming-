@@ -35,14 +35,6 @@ class ShortURL1:
         else:
             return  None    
 
-print("*"*100)
-link=ShortURL1()
-
-s=link.getShortUrl('www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg1')
-print("Short URL:::  {}".format(s))
-print("Long Url:::  {}".format(link.getLongUrl(s)))
-
-
 class NewShortUrl(ShortURL1):
 
     main_link1="www.amazon.com/"
@@ -61,10 +53,16 @@ class NewShortUrl(ShortURL1):
         short_link=self.main_link1+shortURL
         return short_link
 
+given_link= input("Enter your link which you want to short")
+
+print("*"*100)
+link=ShortURL1()
+s1=link.getShortUrl(given_link)
+print("Short URL:::  {}".format(s1))
+print("Long Url:::  {}".format(link.getLongUrl(s1)))
 
 print("#"*100)
-link=NewShortUrl()
-
-s=link.NewGetShortUrl('www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg1')
-print("Short URL:::  {}".format(s))
-print("Long Url:::  {}".format(link.getLongUrl(s)))
+link1=NewShortUrl()
+s2=link1.NewGetShortUrl(given_link)
+print("Short URL:::  {}".format(s2))
+print("Long Url:::  {}".format(link1.getLongUrl(s2)))
