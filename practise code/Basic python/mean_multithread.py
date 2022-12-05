@@ -40,7 +40,7 @@ if __name__=='__main__':     ## without __name__=='__main__' code will not work 
     while not q.empty():
         m+=q.get()
 
-    m/=2
+    m=(mean[0]+mean[1])/2
 
     end_time=time.time()
 
