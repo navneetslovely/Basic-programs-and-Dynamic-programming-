@@ -2,6 +2,10 @@ from multiprocessing import Process, Queue
 import math
 import numpy as np
 import time
+from threading import Thread
+
+
+mean=[0,0]
 
 n=100000000
 d=np.random.rand(n)
