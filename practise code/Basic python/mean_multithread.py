@@ -11,7 +11,7 @@ n=100000000
 d=np.random.rand(n)
 
 
-def mean_MP(s,e,q):
+def mean_MP(s,e,threadNum):
     sum=0
     for i in range(s, e+1):
         sum+=d[i]
@@ -24,8 +24,8 @@ def mean_MP(s,e,q):
 n1=math.floor(n/2)
 q=Queue()
 if __name__=='__main__':     ## without __name__=='__main__' code will not work porperly
-    p1=Process(target=mean_MP,args=(0,n1,q))
-    p2=Process(target=mean_MP,args=(n1+1,n-1,q))
+    p1=Thread(target=mean_MP,args=(0,n1,q))
+    p2=Thread(target=mean_MP,args=(n1+1,n-1,q))
 
 
     start_time=time.time()
