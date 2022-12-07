@@ -3,7 +3,8 @@ import math
 import numpy as np
 import time
 
-n=100000000
+# n=100000000
+n=1000
 d=np.random.rand(n)
 
 
