@@ -3,7 +3,7 @@ import random
 import string 
 #*************************************************************#
 # take the url from the users
-# full_url= input("enter your URL")
+full_url= input("enter your URL")
 
 #*************************************************************#
 #predefine url
