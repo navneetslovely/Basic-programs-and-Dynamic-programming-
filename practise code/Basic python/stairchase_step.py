@@ -1,5 +1,5 @@
 
-
+"""merge this on with other files and use classes to code """
 staircase_steps=int(input())
 stptkn=0
 def steps(staircase_steps):
