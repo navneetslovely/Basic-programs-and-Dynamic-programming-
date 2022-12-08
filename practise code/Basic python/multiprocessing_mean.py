@@ -2,6 +2,10 @@ from multiprocessing import Process, Queue
 import math
 import numpy as np
 import time
+#commeted remaining 
+
+
+
 
 # n=100000000
 n=1000
@@ -12,7 +16,6 @@ def mean_MP(s,e,q):
     sum=0
     for i in range(s, e+1):
         sum+=d[i]
-
 
     mean =sum/(e-s+1)
     q.put(mean)
