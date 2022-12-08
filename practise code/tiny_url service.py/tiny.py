@@ -1,6 +1,12 @@
 #important libraries
 import random
 import string 
+
+
+#commeted remaining 
+
+
+
 #*************************************************************#
 # take the url from the users
 full_url= input("enter your URL")
@@ -8,7 +14,7 @@ full_url= input("enter your URL")
 #*************************************************************#
 #predefine url
 #www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg
-full_url='www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg1'
+# full_url='www.fgyhuhguer.urertu./ryugfiergf bcfvugigvgeycggrvgeg1'
 #*************************************************************#
 url_dict={}
 def short_url(a):
