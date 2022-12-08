@@ -1,6 +1,12 @@
 import random
 import string
 
+#commeted remaining 
+
+
+
+
+
 
 class ShortURL1:
     #class varibles shared by all the objects in the class
